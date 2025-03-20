@@ -29,7 +29,11 @@ h1 {
   color: #60a5fa;
 }
 
-a {
+a:hover {
+  background-color: #2563eb;
+} 
+
+.nav-button {
   background-color: #3b82f6;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -37,7 +41,3 @@ a {
   text-decoration: none;
   transition: background-color 0.2s;
 }
-
-a:hover {
-  background-color: #2563eb;
-} 
